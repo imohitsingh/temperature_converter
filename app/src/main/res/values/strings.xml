@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">temperature converter</string>
+    <string name="this_is_a_simple_temperature_converter_app_to_get_started_enter_a_value_in_celsius_to_get_your_result_in_fahrenheit">This is a simple temperature converter app, To get started, enter a value in Celsius to get your result in Fahrenheit.</string>
+    <string name="Celsius">Celsius</string>
+    <string name="Fahrenheit">Fahrenheit</string>
 </resources>

@@ -10,10 +10,11 @@
         android:id="@+id/far"
         android:layout_width="97dp"
         android:layout_height="86dp"
-        android:layout_marginTop="244dp"
         android:ems="10"
+        android:hint="Fahrenheit"
         android:inputType="numberDecimal"
         android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.394"
         app:layout_constraintStart_toEndOf="@+id/cel"
@@ -25,10 +26,11 @@
         android:layout_height="86dp"
         android:layout_marginStart="80dp"
         android:layout_marginLeft="80dp"
-        android:layout_marginTop="244dp"
         android:ems="10"
+        android:hint="Celsius"
         android:inputType="numberDecimal"
         android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -41,22 +43,33 @@
         android:textAppearance="@style/TextAppearance.AppCompat.Medium"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/cel"
-        app:layout_constraintVertical_bias="0.193" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.568" />
 
     <TextView
         android:id="@+id/outfar"
         android:layout_width="97dp"
         android:layout_height="86dp"
-        android:layout_marginStart="60dp"
-        android:layout_marginLeft="60dp"
+        android:layout_marginEnd="80dp"
+        android:layout_marginRight="80dp"
         android:textAppearance="@style/TextAppearance.AppCompat.Medium"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.049"
-        app:layout_constraintStart_toEndOf="@+id/outcel"
-        app:layout_constraintTop_toBottomOf="@+id/far"
-        app:layout_constraintVertical_bias="0.228" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.567" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="279dp"
+        android:layout_height="106dp"
+
+        android:text="@string/this_is_a_simple_temperature_converter_app_to_get_started_enter_a_value_in_celsius_to_get_your_result_in_fahrenheit"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.855" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
